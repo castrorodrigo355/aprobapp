@@ -1,0 +1,115 @@
+.App {
+  text-align:center;
+}
+
+.Container {
+  display: inline-block;
+  /* text-align: center; */
+}
+
+.Menu {
+  /* display: inline-block; */
+  /* padding: 1px; */
+  text-align: center;
+  overflow-x: scroll;
+  /* overflow-y: hidden; */
+  white-space: nowrap
+}
+
+.Menu div {
+  display: inline-block;
+  text-align: center;
+}
+
+.recipeWhatsapp {
+  margin: 0%;
+  padding: 1px;
+  margin-top: 4px;
+  /* border-radius: 60px; */
+  /* box-shadow: 0 7px 6px rgba(0,0,0,0.15); */
+  /* width: 100%; */
+  /* border-radius: 60px; */
+  /* text-decoration: none; */
+  /* box-shadow: 0 8px 6px rgba(0,0,0,0.15); */
+}
+
+.recipeWhatsapp .bg {
+  display: block;
+
+  height: 60px;
+  width: 60px;
+  /* padding-bottom: 40%; */
+  /* background-position: 50% 50%; */
+  background-size: cover;
+  /* background-repeat: no-repeat; */
+  
+  border-top-right-radius: 6px;
+  border-top-left-radius: 6px;
+}
+
+.recipe {
+  /* width: 100%; */
+  border-radius: 60px;
+  /* text-decoration: none; */
+  box-shadow: 0 7px 6px rgba(0,0,0,0.15);
+}
+
+.recipe .bg {
+  display: block;
+  /* text-align: center; */
+  height: 60px;
+  width: 60px;
+  /* padding-bottom: 40%; */
+  /* background-position: 50% 50%; */
+  background-size: cover;
+  /* background-repeat: no-repeat; */
+  
+  border-top-right-radius: 6px;
+  border-top-left-radius: 6px;
+}
+
+/* .recipe .info {
+  display: block;
+  border-bottom-right-radius: 6px;
+  border-bottom-left-radius: 6px;
+} */
+
+/* .Menu div div{
+  margin-right: 15px;
+  border-radius: 80px;
+  text-align: center;
+} */
+
+/* 
+.recipes {
+  display: grid;
+  padding: 0px;
+  margin-right: 7px;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+}
+
+.recipe2 {
+  width: 50%;
+  border-radius: 60px;
+  text-decoration: none;
+  box-shadow: 0 3px 4px rgba(0,0,0,0.15);
+}
+
+.recipe .bg {
+  display: block;
+  text-align: center;
+  height: 60px;
+  width: 60px;
+  padding-bottom: 40%;
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-top-right-radius: 6px;
+  border-top-left-radius: 6px;
+}
+.recipe .info {
+  display: block;
+  border-bottom-right-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+ */
