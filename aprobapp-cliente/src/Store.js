@@ -6,7 +6,7 @@ const reducer = (state, action) => {
         return{
             ...state, materias : action.materias
         }
-    } else if(action.type === "GET_MATERIA"){
+    } else if(action.type === "GET_CURSOS"){
         return {
             ...state, cursosMateria : action.cursosMateria
         }

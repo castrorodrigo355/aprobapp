@@ -17,7 +17,7 @@ const obtenerMateria = idMateria => {
     return (dispatch) => {
         axios.get(`http://localhost:3000/materias/${idMateria}`)
             .then(response => dispatch({
-                type: "GET_MATERIA",
+                type: "GET_CURSOS",
                 cursosMateria : response.data.cursos
             })
     )}

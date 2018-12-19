@@ -38,7 +38,7 @@ class Historias extends Component {
                         <span className="bg rounded-circle" style={{backgroundImage:`url(${whatsapp})`}}></span>
                     </div>
                 </div> */}
-                <div className="Menu">
+                <div className="Menu redondear border">
                     <div className="" style={{paddingLeft:"0px", paddingTop: "6px"}}>
                         {
                             this.props.materias.map((materia, i) => {
@@ -48,7 +48,7 @@ class Historias extends Component {
                                             <span className="bg rounded-circle" style={{backgroundImage:`url(${materia.url})`}}
                                                     onClick={() => this.props.obtenerMateria(materia._id)}></span>
                                         </div>
-                                        <span className="info"><h6>{materia.nombre}</h6></span>
+                                        <span className="info" style={{color:"white"}}><h6>{materia.nombre}</h6></span>
                                     </div>
                                 )
                             })

@@ -20,7 +20,7 @@ class TablaDeCursos extends Component {
                             this.props.cursosMateria.map((curso, i) => {
                             return(
                                 <tbody className="alert" key={i}>
-                                    <tr>
+                                    <tr style={{color:"white"}}>
                                         <td>{curso.inicio}</td>
                                         <td>{curso.fin}</td>
                                         <td><button type="submit" onClick={() => this.props.obtenerFechas(curso._id)} className="badge badge-pill badge-info">Ver Clases</button></td>

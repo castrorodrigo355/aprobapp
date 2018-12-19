@@ -18,7 +18,7 @@ class TablaDeFechas extends Component {
                     {this.props.clasesCurso.map((unaClase, i) => {
                         return(
                             <tbody className="alert clickable-row'" key={i}>
-                                <tr>
+                                <tr style={{color:"white"}}>
                                     <td>{unaClase.fecha}</td>
                                     <td>{unaClase.contenido}</td>
                                     <td>{unaClase.horario}</td>

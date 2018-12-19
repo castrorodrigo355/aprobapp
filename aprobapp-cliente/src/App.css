@@ -113,3 +113,11 @@
   border-bottom-left-radius: 6px;
 }
  */
+
+ .redondear{
+  font-Size: 3rem;
+  border-top-left-radius: 40px;
+  /* border-bottom-left-radius: 40px; */
+  /* border-top-right-radius: 40px; */
+  /* border-bottom-right-radius: 40px; */
+}
