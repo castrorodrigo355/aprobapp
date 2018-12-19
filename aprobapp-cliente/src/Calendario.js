@@ -23,7 +23,7 @@ class Calendario extends Component {
 
     render() {
         return (
-            <div className="border">
+            <div>
                 <DayPicker  firstDayOfWeek={1}
                             months={MONTHS}
                             weekdaysShort={WEEKDAYS_SHORT}

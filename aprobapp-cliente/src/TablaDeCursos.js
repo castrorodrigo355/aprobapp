@@ -7,7 +7,7 @@ class TablaDeCursos extends Component {
 
     render() {
         return (
-            <div className="border">
+            <div>
                 <table className="table table-sm letrablanca">
                     <thead>
                         <tr className="alert alert-danger">

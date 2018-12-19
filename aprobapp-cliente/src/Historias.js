@@ -32,18 +32,13 @@ class Historias extends Component {
         // const imagen = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_f12v4lO6XBNbKx0wRXCJctR8PPv2WzE9eDJNDuX7paISvFKz"
         
         return (
-            <div className="row">
-                <div className="col-1">
-                    {/* <div style={{height: "10vh"}}>
-                        <span className="bg" style={{backgroundImage:`url(${urlPrimos})`}}></span>
-                    </div> */}
-                </div>
-                <div className="col-2 recipeWhatsapp">
+            <div>
+                {/* <div className="col-2 recipeWhatsapp">
                     <div style={{height: "10vh"}}>
                         <span className="bg rounded-circle" style={{backgroundImage:`url(${whatsapp})`}}></span>
                     </div>
-                </div>
-                <div className="col-9 Menu">
+                </div> */}
+                <div className="Menu">
                     <div className="" style={{paddingLeft:"0px", paddingTop: "6px"}}>
                         {
                             this.props.materias.map((materia, i) => {

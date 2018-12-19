@@ -6,7 +6,7 @@ class TablaDeFechas extends Component {
 
     render() {
         return (
-            <div className="border">
+            <div>
                 <table className="table table-sm table-hover letrablanca">
                     <thead>
                         <tr className="alert alert-danger">
