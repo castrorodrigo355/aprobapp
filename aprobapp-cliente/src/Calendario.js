@@ -30,7 +30,7 @@ class Calendario extends Component {
         
         const modifiersStyles = {
             clasesCurso: {
-                color: 'black',
+                color: 'white',
                 backgroundColor: '#4AC1CF',
             },
             fechaActual: {

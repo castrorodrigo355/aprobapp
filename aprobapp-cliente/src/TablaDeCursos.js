@@ -18,7 +18,7 @@ class TablaDeCursos2 extends Component {
                                 <tr className="alert alert-danger">
                                 <th scope="col">Inicio</th>
                                 <th scope="col">Final</th>
-                                <th scope="col">Fechas Clases</th>
+                                <th scope="col">Fechas</th>
                                 </tr>
                             </thead>
                             {
