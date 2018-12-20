@@ -11,7 +11,7 @@ const MONTHS = [
 const WEEKDAYS_SHORT = ['Dom', 'Lun', 'Mar', 'Mie', 'Jue', 'Vie', 'Sab'];
 
 const birthdayStyle = `.DayPicker-Day--highlighted {
-    background-color: orange;
+    background-color: silver;
     color: white;
 }`;
   
@@ -22,14 +22,26 @@ const modifiers = {
 class Calendario extends Component {
 
     render() {
+        const cantCursos = this.props.cursosMateria.length;
         return (
             <div>
-                <DayPicker  firstDayOfWeek={1}
-                            months={MONTHS}
-                            weekdaysShort={WEEKDAYS_SHORT}
-                            modifiers={modifiers}
-                            selectedDays={this.props.clasesCurso}
-                />
+                { !(cantCursos == 0) ?
+                    <div>
+                        <style>{birthdayStyle}</style>
+                        <DayPicker  firstDayOfWeek={1}
+                                    months={MONTHS}
+                                    weekdaysShort={WEEKDAYS_SHORT}
+                                    disabledDays={{ daysOfWeek: [0] }}
+                                    modifiers={modifiers}
+                                    selectedDays={this.props.clasesCurso}
+                        />
+                    </div>
+                    :
+                    <div>
+                        {"NO HAY CURSOS"}
+                    </div>
+                }
+                
             </div>
         );
     }
@@ -37,7 +49,8 @@ class Calendario extends Component {
 
 const mapStateToProps = state => {
     return {
-        clasesCurso : state.clasesCurso.map(unaClase => new Date(unaClase.fecha))
+        clasesCurso : state.clasesCurso.map(unaClase => new Date(unaClase.fecha)), 
+        cursosMateria: state.cursosMateria
     }
 }
 

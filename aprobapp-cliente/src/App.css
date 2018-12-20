@@ -129,3 +129,29 @@ h6{
   /* border-top-right-radius: 40px;
   border-bottom-right-radius: 40px; */
 }
+
+/* TRANSITIONS CSS */
+
+.fade-appear{
+  opacity: 0;
+  z-index: 1;
+}
+
+.fade-appear.fade-appear-active{
+  opacity: 1;
+  transition: opacity 1000ms linear
+}
+
+.fade-exit{
+  opacity: 0;
+  z-index: 1;
+}
+
+.fade-exit.fade-exit-active{
+  opacity: 1;
+  transition: opacity 1000ms linear
+}
+
+.fade-exit.fade-exit-active{
+  opacity: 0;
+}
