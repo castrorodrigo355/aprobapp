@@ -16,6 +16,10 @@
   white-space: nowrap
 }
 
+.Menu2{
+  display: inline-block
+}
+
 .Menu div {
   display: inline-block;
   text-align: center;
@@ -154,4 +158,12 @@ h6{
 
 .fade-exit.fade-exit-active{
   opacity: 0;
+}
+
+.card_container{
+  margin: 0 3px 3px 0px
+}
+
+.card_element_container{
+  padding: 3px
 }

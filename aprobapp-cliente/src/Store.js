@@ -8,12 +8,10 @@ const reducer = (state, action) => {
         }
     } 
     else if(action.type === "GET_CURSOS"){
+        state.clasesCurso = [];
         return {
             ...state, cursosMateria : action.cursosMateria
-            
         }
-        
-
     } else if(action.type === "GET_FECHAS"){
         return {
             ...state, clasesCurso : action.clasesCurso
