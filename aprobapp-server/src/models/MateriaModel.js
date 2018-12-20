@@ -12,6 +12,7 @@ var curso = new Schema({
 
 var materia = new Schema({  
             nombre: String,
+            url: String,
             cursos: [curso]})
             
 var Materia = mongoose.model("Materia", materia)

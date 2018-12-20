@@ -6,10 +6,15 @@ const reducer = (state, action) => {
         return{
             ...state, materias : action.materias
         }
-    } else if(action.type === "GET_CURSOS"){
+    } 
+    else if(action.type === "GET_CURSOS"){
         return {
+            state, clasesCurso : [],
             ...state, cursosMateria : action.cursosMateria
+            
         }
+        
+
     } else if(action.type === "GET_FECHAS"){
         return {
             ...state, clasesCurso : action.clasesCurso

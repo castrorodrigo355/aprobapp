@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { obtenerMaterias, obtenerMateria } from "./ActionCreators"
+import { obtenerMaterias, obtenerCursos } from "./ActionCreators"
 import { connect } from "react-redux"
 import './App.css';
 
@@ -40,7 +40,7 @@ class Historias extends Component {
                         return(
                             <div key={i} className="recipe" style={{marginRight:"12px", marginLeft:"8px"}}>
                                     <span className="bg rounded-circle" style={{backgroundImage:`url(${materia.url})`}}
-                                            onClick={() => this.props.obtenerMateria(materia._id)}></span>
+                                            onClick={() => this.props.obtenerCursos(materia._id)}></span>
                                     <span className="info"><h6>{materia.nombre}</h6></span>
                             </div>
                         )
@@ -62,8 +62,8 @@ const mapDispatchToProps = dispatch => {
         obtenerMaterias : () => { 
             dispatch(obtenerMaterias())
         },
-        obtenerMateria : (idMateria) => {
-            dispatch(obtenerMateria(idMateria))
+        obtenerCursos : (idMateria) => {
+            dispatch(obtenerCursos(idMateria))
         } 
     }
 }

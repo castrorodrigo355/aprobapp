@@ -37,7 +37,8 @@ const mapStateToProps = state => {
     function funcionRodrigo({fecha, contenido, horario}){
         const nuevaClase = {}
         const unaFecha = new Date(fecha)
-        nuevaClase.fecha = unaFecha.getDate()+"/"+(unaFecha.getMonth() + 1)+"/"+unaFecha.getFullYear()
+        nuevaClase.fecha = unaFecha.getDate()+"/"+(unaFecha.getMonth() + 1)
+                                                        // +"/"+unaFecha.getFullYear()
         nuevaClase.contenido = contenido
         nuevaClase.horario = horario
         return nuevaClase
