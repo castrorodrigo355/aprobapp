@@ -32,29 +32,18 @@ class Historias extends Component {
         // const imagen = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_f12v4lO6XBNbKx0wRXCJctR8PPv2WzE9eDJNDuX7paISvFKz"
         
         return (
-            <div>
-                {/* <div className="col-2 recipeWhatsapp">
-                    <div style={{height: "10vh"}}>
-                        <span className="bg rounded-circle" style={{backgroundImage:`url(${whatsapp})`}}></span>
-                    </div>
-                </div> */}
-                <div className="Menu redondear border">
-                    <div className="" style={{paddingLeft:"0px", paddingTop: "6px"}}>
-                        {
-                            this.props.materias.map((materia, i) => {
-                                return(
-                                    <div style={{height: "14vh", width:"13vh"}} key={i}>
-                                        <div className="recipe">
-                                            <span className="bg rounded-circle" style={{backgroundImage:`url(${materia.url})`}}
-                                                    onClick={() => this.props.obtenerMateria(materia._id)}></span>
-                                        </div>
-                                        <span className="info" style={{color:"white"}}><h6>{materia.nombre}</h6></span>
-                                    </div>
-                                )
-                            })
-                        }
-                    </div>
-                </div>
+            <div className="Menu border redondear">
+                {
+                    this.props.materias.map((materia, i) => {
+                        return(
+                            <div key={i} className="recipe" style={{marginRight:"12px", marginLeft:"8px"}}>
+                                    <span className="bg rounded-circle" style={{backgroundImage:`url(${materia.url})`}}
+                                            onClick={() => this.props.obtenerMateria(materia._id)}></span>
+                                    <span className="info"><h6>{materia.nombre}</h6></span>
+                            </div>
+                        )
+                    })
+                }
             </div>
         );
     }

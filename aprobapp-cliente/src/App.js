@@ -10,11 +10,10 @@ class App extends Component {
     render() {
         return (
             <div>
-                {/* <span className="border redondear">selkfnlsefnekl</span> */}
                 <Historias />
-                <TablaDeCursos />
+                {/*<TablaDeCursos />
                 <Calendario />
-                <TablaDeFechas />
+                <TablaDeFechas /> */}
             </div>
         );
     }
