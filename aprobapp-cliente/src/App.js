@@ -11,9 +11,9 @@ class App extends Component {
         return (
             <div>
                 <Historias />
-                {/*<TablaDeCursos />
+                <TablaDeCursos />
                 <Calendario />
-                <TablaDeFechas /> */}
+                <TablaDeFechas />
             </div>
         );
     }

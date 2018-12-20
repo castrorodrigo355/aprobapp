@@ -31,6 +31,8 @@ class Historias extends Component {
         // FISICA 2
         // const imagen = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_f12v4lO6XBNbKx0wRXCJctR8PPv2WzE9eDJNDuX7paISvFKz"
         
+        // ALGEBRA
+        // const imagen = "http://bp1.blogger.com/_ISF8DP9N9hg/R_MqQBEk_hI/AAAAAAAAANY/EAe5gMmXIeo/s400/ArrayBusLin.JPG"
         return (
             <div className="Menu border redondear">
                 {
