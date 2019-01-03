@@ -12,12 +12,12 @@ class App extends Component {
         return (
             <div>
                 <Historias />
-                <TablaDeCursos/>
-                <Calendario />
+                {/* <TablaDeCursos/>
+                <Calendario /> */}
 
                 {/* <TablaDeFechas /> */}
 
-                <GridDeFechas />
+                {/* <GridDeFechas /> */}
             </div>
         );
     }

@@ -11,8 +11,8 @@ class GridDeFechas extends Component {
                 {
                 this.props.clasesCurso.map((unaClase, i) => {
                     return(
-                        <CSSTransition in={true} appear={true} timeout={5000} classNames="fade">
-                        <div key={i} className="recipe card_container border badge-info" 
+                        <CSSTransition key={i} in={true} appear={true} timeout={5000} classNames="fade">
+                        <div className="recipe card_container border badge-info" 
                             style={{marginBottom:"15px", paddingTop:"8px", marginRight:"12px", marginLeft:"8px", height:"80px", width:"80px"}}>
                             {/* <span className="bg rounded-circle"></span> */}
                             <span className="info rounded-circle"><h6>{unaClase.fecha}</h6></span>
