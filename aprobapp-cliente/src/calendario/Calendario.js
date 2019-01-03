@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import {connect} from "react-redux"
 import DayPicker from 'react-day-picker';
 import 'react-day-picker/lib/style.css';
-import './App.css';
+import '../App.css';
 
 // const MONTHS = [
 //     'Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'

@@ -1,0 +1,49 @@
+.myimage{
+    /* background-size: cover; */
+    background-position: 50% 50%;
+    height: 13vh;
+    width: 13vh;
+    border: 2px solid #333
+}
+
+.mysubjectdescription{
+    font-family: cursive;
+    /* font-weight: 500; */
+    line-height: 1;
+    color: white;
+}
+
+div.scrollmenu {
+    background: #4b6cb7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #182848, #4b6cb7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #182848, #4b6cb7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+
+    overflow: auto;
+    white-space: nowrap
+}
+
+div.scrollmenu div{
+    display: inline-block;
+    /* color: rgb(27, 7, 7); */
+    text-align: center;
+    /* padding: 14px; */
+    text-decoration: none;
+
+    /* text-align: center; */
+    /* height: inherit; */
+    /* width: 60px; */
+    /* padding-bottom: 40%; */
+    /* background-position: 50% 50%;
+    background-size: cover;
+    border: 1vw solid black;
+    background-repeat: no-repeat;
+    
+    border-top-left-radius: 6px;*/
+    /* border-top-right-radius: 60px; */
+}

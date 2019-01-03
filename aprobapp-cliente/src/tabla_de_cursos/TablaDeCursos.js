@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import { obtenerFechas } from "./ActionCreators"
+import { obtenerFechas } from "../redux_config/ActionCreators"
 import { connect } from "react-redux"
 import { CSSTransition } from "react-transition-group";
-import './App.css';
+import '../App.css';
 
-class TablaDeCursos2 extends Component {
+class TablaDeCursos extends Component {
 
     render() {
         const cantCursos = this.props.cursosMateria.length;
@@ -13,14 +13,14 @@ class TablaDeCursos2 extends Component {
                 {
                     !(cantCursos === 0) ?
                     <CSSTransition in={true} appear={true} timeout={5000} classNames="fade">
-                        <table className="table table-sm letrablanca animacion">
-                            <thead>
+                        <table className="table  letrablanca ">
+                            {/* <thead>
                                 <tr className="alert alert-danger">
                                 <th scope="col">Inicio</th>
                                 <th scope="col">Final</th>
                                 <th scope="col">Fechas</th>
                                 </tr>
-                            </thead>
+                            </thead> */}
                             {
                                 this.props.cursosMateria.map((curso, i) => {
                                 return(
@@ -67,4 +67,4 @@ const mapDispatchToProps = dispatch => {
     }
 }
 
-export default connect(mapStateToProps, mapDispatchToProps)(TablaDeCursos2);
+export default connect(mapStateToProps, mapDispatchToProps)(TablaDeCursos);

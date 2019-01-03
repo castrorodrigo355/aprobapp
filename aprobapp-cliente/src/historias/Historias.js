@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import { obtenerMaterias, obtenerCursos } from "./ActionCreators"
+import { obtenerMaterias, obtenerCursos } from "../redux_config/ActionCreators"
 import { connect } from "react-redux"
-import './App.css';
+import '../App.css';
 
 class Historias extends Component {
 

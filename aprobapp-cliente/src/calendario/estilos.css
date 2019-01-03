@@ -1,0 +1,49 @@
+
+.Menu {
+    display: inline-block;
+    /* padding: 1px; */
+    text-align: center;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    padding-top: 3px;
+    /* font-Size: 3rem; */
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+
+.recipe {
+    /* width: 100%; */
+    /* border-radius: 60px; */
+    /* text-decoration: none; */
+    /* box-shadow: 0 7px 6px rgba(0,0,0,0.15); */
+}
+  
+/* .fondoHistorias{
+    background: #0f0c29;
+    background: -webkit-linear-gradient(to left, #24243e, #302b63, #0f0c29);
+    background: linear-gradient(to left, #24243e, #302b63, #0f0c29);
+} */
+  
+.recipe .bg {
+    display: block;
+    /* text-align: center; */
+    height: 60px;
+    width: 60px;
+    /* padding-bottom: 40%; */
+    background-position: 50% 50%;
+    background-size: cover;
+    /* border: 1vw solid black; */
+    /* background-repeat: no-repeat; */
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+}
+
+h6{
+    font-family: cursive;
+    /* font-weight: 500; */
+    line-height: 1;
+    color: rgb(3, 3, 19);
+}
