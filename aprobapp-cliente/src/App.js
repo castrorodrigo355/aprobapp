@@ -10,7 +10,9 @@ class App extends Component {
 
     render() {
         return (
-            <div className="">
+            <div>
+
+                {/* <MyCalendario /> */}
                 
                 <Historias />
                  
@@ -19,9 +21,9 @@ class App extends Component {
                 
                 <Calendario />
                 
-                {/*
-                <TablaDeFechas /> 
-                */}
+                
+                {/* <TablaDeFechas />  */}
+                
 
                 <GridDeFechas />
                 
