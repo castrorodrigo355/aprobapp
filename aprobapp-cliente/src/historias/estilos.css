@@ -1,9 +1,48 @@
 .myimage{
     /* background-size: cover; */
     background-position: 50% 50%;
-    height: 13vh;
-    width: 13vh;
-    border: 2px solid #333
+    height: 10vh;
+    width: 10vh;
+    border: 2px solid #333;
+    
+}
+
+.myimage:hover{
+    animation: parpadear 5s 30;
+    animation-play-state: initial
+}
+
+@keyframes parpadear {
+    0%, 10%{
+        opacity: 1;
+    }
+    10%, 20%{
+        opacity: 0.1;
+    }
+    20%, 30%{
+        opacity: 1;
+    }
+    30%, 40%{
+        opacity: 0.1;
+    }
+    40%, 50%{
+        opacity: 1;
+    }
+    50%, 60%{
+        opacity: 0.1;
+    }
+    60%, 70%{
+        opacity: 1;
+    }
+    70%, 85%{
+        opacity: 0.1;
+    }
+    85%, 100%{
+        opacity: 0.9;
+    }
+    
+    /* from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); } */
 }
 
 .mysubjectdescription{
@@ -11,6 +50,8 @@
     /* font-weight: 500; */
     line-height: 1;
     color: white;
+    font-size: 1.1rem;
+    /* font-weight: 500; */
 }
 
 div.scrollmenu {
@@ -18,11 +59,11 @@ div.scrollmenu {
     background: -webkit-linear-gradient(to right, #182848, #4b6cb7);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #182848, #4b6cb7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     
-    border-top-left-radius: 50px;
-    border-bottom-left-radius: 50px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
 
-    border-top-right-radius: 50px;
-    border-bottom-right-radius: 50px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
 
     overflow: auto;
     white-space: nowrap

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import {connect} from "react-redux"
+import {connect} from "react-redux";
+
 import DayPicker from 'react-day-picker';
 import 'react-day-picker/lib/style.css';
 import '../App.css';
@@ -39,7 +40,7 @@ class Calendario extends Component {
         };
         // const cantCursos = this.props.cursosMateria.length;
         return (
-            <div style={{marginTop:"-15px"}}>
+            <div>
                 <style>{birthdayStyle}</style>
                 <DayPicker  firstDayOfWeek={1}
                             months={MONTHS}

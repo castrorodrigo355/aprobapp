@@ -43,9 +43,9 @@ class Historias extends Component {
                     this.props.materias.map((materia, i) => {
                         return(
                             <div key={i}>
-                                <div style={{marginRight:"5px"}} className="d-flex flex-column bd-highlight mb-1">
+                                <div style={{marginRight:"8px"}} className="d-flex flex-column bd-highlight mb-1">
                                     <div className="bd-highlight">
-                                        <img className="myimage img-fluid rounded-circle" alt="" src={materia.url}
+                                        <img className="myimage img-fluid rounded-circle   caja_animada" alt="" src={materia.url}
                                              onClick={() => this.props.obtenerCursos(materia._id)}></img>
                                     </div>
                                     <div className="mysubjectdescription bd-highlight">

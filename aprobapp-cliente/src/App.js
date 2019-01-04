@@ -11,7 +11,7 @@ class App extends Component {
 
     render() {
         return (
-            <div>
+            <div className="">
                 <Historias2 />
                  
                 <TablaDeCursos/>
@@ -23,7 +23,7 @@ class App extends Component {
                 <TablaDeFechas /> 
                 */}
 
-                {/* <GridDeFechas /> */}
+                <GridDeFechas />
             </div>
         );
     }

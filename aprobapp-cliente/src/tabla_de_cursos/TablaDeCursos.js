@@ -2,18 +2,18 @@ import React, { Component } from 'react';
 import { obtenerFechas } from "../redux_config/ActionCreators"
 import { connect } from "react-redux"
 import { CSSTransition } from "react-transition-group";
-import '../App.css';
+import './estilos.css';
 
-class TablaDeCursos extends Component {
+class TablaDeCursos2 extends Component {
 
     render() {
         const cantCursos = this.props.cursosMateria.length;
         return (
-            <div style={{marginBottom:"-22px"}}>
+            <div className="container tipografia" style={{marginBottom:"-22px"}}>
                 {
                     !(cantCursos === 0) ?
                     <CSSTransition in={true} appear={true} timeout={5000} classNames="fade">
-                        <table className="table  letrablanca ">
+                        <table className="table table-sm">
                             {/* <thead>
                                 <tr className="alert alert-danger">
                                 <th scope="col">Inicio</th>
@@ -26,9 +26,9 @@ class TablaDeCursos extends Component {
                                 return(
                                     <tbody className="alert" key={i}>
                                         <tr style={{color:"white"}}>
-                                            <td>{curso.inicio}</td>
-                                            <td>{curso.fin}</td>
-                                            <td><button type="submit" onClick={() => this.props.obtenerFechas(curso._id)} className="badge badge-pill badge-info">Ver Clases</button></td>
+                                            <td>Inicio: {curso.inicio}</td>
+                                            <td>Final: {curso.fin}</td>
+                                            <td><button type="submit" onClick={() => this.props.obtenerFechas(curso._id)} className="badge badge-pill badge-info">Clases</button></td>
                                         </tr>
                                     </tbody>
                                 )          
@@ -67,4 +67,4 @@ const mapDispatchToProps = dispatch => {
     }
 }
 
-export default connect(mapStateToProps, mapDispatchToProps)(TablaDeCursos);
+export default connect(mapStateToProps, mapDispatchToProps)(TablaDeCursos2);
