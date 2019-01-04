@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { CSSTransition } from "react-transition-group";
 import { connect } from "react-redux"
 import '../App.css';
+import './estilos.css';
 
 class GridDeFechas extends Component {
 

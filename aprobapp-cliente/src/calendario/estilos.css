@@ -13,19 +13,6 @@
     border-top-right-radius: 40px;
     border-bottom-right-radius: 40px;
 }
-
-.recipe {
-    /* width: 100%; */
-    /* border-radius: 60px; */
-    /* text-decoration: none; */
-    /* box-shadow: 0 7px 6px rgba(0,0,0,0.15); */
-}
-  
-/* .fondoHistorias{
-    background: #0f0c29;
-    background: -webkit-linear-gradient(to left, #24243e, #302b63, #0f0c29);
-    background: linear-gradient(to left, #24243e, #302b63, #0f0c29);
-} */
   
 .recipe .bg {
     display: block;
