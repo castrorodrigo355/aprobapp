@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { obtenerMaterias, obtenerCursos } from "../redux_config/ActionCreators"
 import { connect } from "react-redux"
-import '../App.css';
+import './estilos.css';
 
 class Historias extends Component {
 
@@ -38,14 +38,20 @@ class Historias extends Component {
         // const imagen = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_f12v4lO6XBNbKx0wRXCJctR8PPv2WzE9eDJNDuX7paISvFKz"
 
         return (
-            <div className="Menu redondear">
+            <div className="scrollmenu theapp">
                 {
                     this.props.materias.map((materia, i) => {
                         return(
-                            <div key={i} className="recipe" style={{marginRight:"12px", marginLeft:"8px"}}>
-                                    <span className="bg rounded-circle" style={{backgroundImage:`url(${materia.url})`}}
-                                            onClick={() => this.props.obtenerCursos(materia._id)}></span>
-                                    <span className="info"><h6>{materia.nombre}</h6></span>
+                            <div key={i}>
+                                <div style={{marginRight:"8px"}} className="d-flex flex-column bd-highlight mb-1">
+                                    <div className="bd-highlight">
+                                        <img className="myimage img-fluid rounded-circle   caja_animada" alt="" src={materia.url}
+                                             onClick={() => this.props.obtenerCursos(materia._id)}></img>
+                                    </div>
+                                    <div className="mysubjectdescription bd-highlight">
+                                        {materia.nombre}
+                                    </div>
+                                </div>
                             </div>
                         )
                     })
