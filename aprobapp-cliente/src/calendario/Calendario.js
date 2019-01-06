@@ -10,13 +10,35 @@ import '../App.css';
 
 // const WEEKDAYS_SHORT = ['Dom', 'Lun', 'Mar', 'Mie', 'Jue', 'Vie', 'Sab'];
 
-const birthdayStyle = `.DayPicker-Day{
+const birthdayStyle = `
+
+.DayPicker {
+    display: inline-block;
+    font-size: 2.6vh;
+}
+
+.DayPicker-Day{
     color: aqua;
 }
 
+.DayPicker-wrapper {
+    position: relative;
+  
+    flex-direction: row;
+    padding-bottom: 0em;
+  
+    -webkit-user-select: none;
+  
+       -moz-user-select: none;
+  
+        -ms-user-select: none;
+  
+            user-select: none;
+  }
+
 .DayPicker-Weekday {
     display: table-cell;
-    /* padding: 0.5em; */
+    padding: 0;
     color: white;
     text-align: center;
     font-size: 2.4vh;
@@ -24,12 +46,37 @@ const birthdayStyle = `.DayPicker-Day{
 
 .DayPicker-Caption {
     display: table-caption;
-    /* margin-bottom: 0.5em; */
-    padding: 0px 0px 0px 0px;
+    margin: 0px;
+    margin-bottom: 0em;
+    padding: 0px 0px -1px 0px;
     text-align: left;
     color: white
 }
 
+.DayPicker-Month {
+    display: table;
+    margin: 0 1em;
+    margin-top: 0;
+    border-spacing: 0;
+    border-collapse: collapse;
+  
+    -webkit-user-select: none;
+  
+       -moz-user-select: none;
+  
+        -ms-user-select: none;
+  
+            user-select: none;
+}
+
+.DayPicker-NavButton--prev {
+    margin-top: -12px;
+    color:white
+}
+
+.DayPicker-NavButton--next {
+    margin-top: -12px
+}
 `;
 
 class Calendario extends Component {
@@ -55,7 +102,7 @@ class Calendario extends Component {
             }
         };
         return (
-            <div className="" style={{marginTop:"5px"}}>
+            <div className="" style={{marginTop:"0px"}}>
                 <style>{birthdayStyle}</style>
                 <DayPicker  firstDayOfWeek={1}
                             months={MONTHS}

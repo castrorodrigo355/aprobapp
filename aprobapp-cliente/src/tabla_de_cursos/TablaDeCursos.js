@@ -9,11 +9,13 @@ class TablaDeCursos2 extends Component {
     render() {
         const cantCursos = this.props.cursosMateria.length;
         return (
-            <div className="container tipografia" style={{marginBottom:"-22px"}}>
+            <div className="container tipografia" 
+                // style={{marginBottom:"-22px"}}
+                >
                 {
                     !(cantCursos === 0) ?
                     <CSSTransition in={true} appear={true} timeout={5000} classNames="fade">
-                        <table className="table table-sm">
+                        <table className="table table-sm" style={{marginBottom:0}}>
                             {/* <thead>
                                 <tr className="alert alert-danger">
                                 <th scope="col">Inicio</th>
