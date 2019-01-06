@@ -1,0 +1,55 @@
+div.scrollmenufechas {
+
+    /* background: #00B4DB; 
+    background: -webkit-linear-gradient(to right, #0083B0, #00B4DB);
+    background: linear-gradient(to right, #0083B0, #00B4DB);  */
+
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    overflow: auto;
+    white-space: nowrap
+}
+
+div.scrollmenufechas div{
+
+    display: inline-block;
+    /* color: rgb(27, 7, 7); */
+    text-align: center;
+    /* padding: 14px; */
+    text-decoration: none;
+
+    /* text-align: center; */
+    /* height: inherit; */
+    /* width: 60px; */
+    /* padding-bottom: 40%; */
+    /* background-position: 50% 50%;
+    background-size: cover;
+    border: 1vw solid black;
+    background-repeat: no-repeat;
+    
+    border-top-left-radius: 6px;*/
+    /* border-top-right-radius: 60px; */
+}
+
+.clase{
+    background: #00B4DB; 
+    background: -webkit-linear-gradient(to right, #0083B0, #00B4DB);
+    background: linear-gradient(to right, #0083B0, #00B4DB);
+
+    font-family: cursive;
+    /* font-weight: 500; */
+    line-height: 1;
+    color: white;
+    font-size: 3vh;
+    /* font-weight: 500; */
+    padding-top: 2vh;
+    /* background-position: 50% 50%; */
+    overflow: hidden;
+    
+    height: 15vh;
+    width: 15vh;
+    border: 2px solid #333;
+
+}

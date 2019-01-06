@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { obtenerFechas } from "../redux_config/ActionCreators"
 import { connect } from "react-redux"
 import { CSSTransition } from "react-transition-group";
-import './estilos.css';
+import './estilos_cursos.css';
 
 class TablaDeCursos2 extends Component {
 

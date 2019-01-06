@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { obtenerMaterias, obtenerCursos } from "../redux_config/ActionCreators"
 import { connect } from "react-redux"
-import './estilos.css';
+import './estilos_historias.css';
 
 class Historias extends Component {
 
@@ -38,7 +38,7 @@ class Historias extends Component {
         // const imagen = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_f12v4lO6XBNbKx0wRXCJctR8PPv2WzE9eDJNDuX7paISvFKz"
 
         return (
-            <div className="scrollmenu theapp">
+            <div className="scrollmenuhistorias">
                 {
                     this.props.materias.map((materia, i) => {
                         return(

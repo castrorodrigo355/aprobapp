@@ -54,26 +54,20 @@
     /* font-weight: 500; */
 }
 
-div.scrollmenu {
-    background: #00B4DB;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #0083B0, #00B4DB);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #0083B0, #00B4DB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-
-    
-
+div.scrollmenuhistorias {
+    background: #00B4DB; 
+background: -webkit-linear-gradient(to right, #0083B0, #00B4DB);  
+background: linear-gradient(to right, #0083B0, #00B4DB); 
 
     border-top-left-radius: 30px;
     border-bottom-left-radius: 30px;
-
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
-
     overflow: auto;
     white-space: nowrap
 }
 
-div.scrollmenu div{
+div.scrollmenuhistorias div{
     display: inline-block;
     /* color: rgb(27, 7, 7); */
     text-align: center;
