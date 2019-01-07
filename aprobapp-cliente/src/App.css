@@ -167,3 +167,79 @@ h6{
 .card_element_container{
   padding: 3px
 }
+
+.float{
+	position: fixed;
+	width: 5vh;
+	height: 5vh;
+	bottom: 45vh;
+	right: 10px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius: 100%;
+	text-align: center;
+  font-size: 3vh;
+	box-shadow: 2px 2px 3px #999;
+  z-index: 100;
+}
+
+.my-float{
+	margin-top:0px;
+}
+
+.float2{
+	position: fixed;
+	width: 5vh;
+	height: 5vh;
+	bottom: 45vh;
+	left: 10px;
+	background-color:brown;
+	color:#FFF;
+	border-radius: 100%;
+	text-align: center;
+  font-size: 3vh;
+	box-shadow: 2px 2px 3px rgb(77, 24, 24);
+  z-index: 100;
+}
+
+.my-float2{
+	margin-top:0px;
+}
+
+.float3{
+	position: fixed;
+	width: 5vh;
+	height: 5vh;
+	bottom: 60vh;
+	left: 10px;
+	background-color:blue;
+	color:#FFF;
+	border-radius: 100%;
+	text-align: center;
+  font-size: 3vh;
+	box-shadow: 2px 2px 3px rgb(77, 24, 24);
+  z-index: 100;
+}
+
+.my-float3{
+	margin-top:0px;
+}
+
+.float4{
+	position: fixed;
+	width: 5vh;
+	height: 5vh;
+	bottom: 60vh;
+	right: 10px;
+	background-color:red;
+	color:#FFF;
+	border-radius: 100%;
+	text-align: center;
+  font-size: 3vh;
+	box-shadow: 2px 2px 3px rgb(77, 24, 24);
+  z-index: 100;
+}
+
+.my-float4{
+	margin-top:0px;
+}

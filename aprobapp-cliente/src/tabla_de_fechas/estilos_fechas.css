@@ -4,10 +4,14 @@ div.scrollmenufechas {
     background: -webkit-linear-gradient(to right, #0083B0, #00B4DB);
     background: linear-gradient(to right, #0083B0, #00B4DB);  */
 
-    border-top-left-radius: 30px;
-    border-bottom-left-radius: 30px;
-    border-top-right-radius: 30px;
-    border-bottom-right-radius: 30px;
+    /* background-color: rgb(151, 143, 151); */
+
+    
+
+    border-top-left-radius: 20vh;
+    border-bottom-left-radius: 20vh;
+    border-top-right-radius: 20vh;
+    border-bottom-right-radius: 20vh;
     overflow: auto;
     white-space: nowrap
 }
@@ -19,6 +23,8 @@ div.scrollmenufechas div{
     text-align: center;
     /* padding: 14px; */
     text-decoration: none;
+
+    
 
     /* text-align: center; */
     /* height: inherit; */
@@ -45,6 +51,8 @@ div.scrollmenufechas div{
     font-size: 3vh;
     /* font-weight: 500; */
     padding-top: 2vh;
+
+    margin: 0 3px 0 3px;
     /* background-position: 50% 50%; */
     overflow: hidden;
     
