@@ -31,7 +31,7 @@ class App extends Component {
                         <i className="fa fa-whatsapp my-float"></i>
                 </a>
 
-                <a href="https://api.instagram.com/v1/users/self/follows?access_token=ACCESS-TOKEN"
+                <a href="https://api.instagram.com/rodri.c.88/"
                         className="float2 border" 
                         target="_blank">
                         <i className="fa fa-instagram my-float2"></i>
